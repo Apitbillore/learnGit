@@ -1,13 +1,27 @@
 git config --global user.email "arpitbnitk@gmail.com"
 git config --global user.name "arpitbillore"
 
-git init
-git clone
-git add
-git commit
+this above commands is use to identify who is working on this project.
+
+git init:to make project as git project
+
+git status: it shows of files in staging area. and files need to add in staging area.
+
+git add -A: to add all the files in staging area
+git add filename: to add selected file in staging area.
+
+git commit -m "message"
+
+git remote add origin repolink: this will link your local folder in system to git repo. this will only link but not push the code in repo.
+
+git pull origin master: this will push the code in git repo that is there in local.
+
+git clone repolink: this will clone existing project in the folder.
+
+
 git diff
 git reset
-git status
+
 git rm
 git log
 git show
@@ -15,7 +29,7 @@ git tag
 git branch
 git checkout
 git merge
-git remote
-git push
+
+
 git pull
 git stash
